@@ -1,0 +1,23 @@
+{#博客内容显示页#}
+{% extends 'base.html' %}
+{% load static %}
+{% load staticfiles %}
+{% block left_content %}
+<div class="title">
+    <h2><a href="" rel="bookmark" title="">{{ article.title }}</a></h2>
+    <div class="postmeta">
+      <span class="postmeta_author">{{ AUTHOR }}</span>
+      <span class="postmeta_category"><a href="" rel="category">{{ article.category.name }}</a></span>
+      <span class="postmeta_time">{{ article.date_publish }}</span>
+    </div><!-- end postmeta -->
+
+    <div class="entry">
+            <font face='microsoft yahei' size="3">{{ article.content | safe}}</font>
+    </div>
+
+    {% include "comments.html" %}
+</div>
+
+
+
+{% endblock %}

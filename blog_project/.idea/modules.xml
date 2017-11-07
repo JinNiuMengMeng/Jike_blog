@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://D:/Git_store/Python/django/Scrapy/.idea/Scrapy.iml" filepath="D:/Git_store/Python/django/Scrapy/.idea/Scrapy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/blog_project.iml" filepath="$PROJECT_DIR$/.idea/blog_project.iml" />
+    </modules>
+  </component>
+</project>

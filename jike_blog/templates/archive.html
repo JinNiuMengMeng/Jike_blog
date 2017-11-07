@@ -1,0 +1,23 @@
+{#文章归档页面, 点击文章归档的分类, 显示该类对应的列表#}
+{% extends "base.html" %}
+{% load static %}
+{% load staticfiles %}
+{% block left_content %}
+
+<div class="topnews">
+  <h2>{{ request.GET.year }}/{{ request.GET.month }}/{{ request.GET.day }}归档文章</h2>
+
+  {% for article_one in article_list %}
+  <div class="blogs">
+    <ul>
+      <h3><a href="{% url 'article_content' article_one.id %}">{{ article_one.title }}</a></h3>
+      <p>{{ article_one.desc }}</p>
+      <p class="autor"><span class="lm f_l">{% for tag in article_one.tag.all %}<a href="/">{{ tag.name }}</a></span>{% endfor %}<span class="dtime f_l">{{ article_one.date_publish | date:'Y-m-d' }}</span><span class="viewnum f_r">浏览（<a href="/">{{ article_one.click_count }}</a>）</span><span class="pingl f_r">评论（<a href="/">{{ article_one.comment_set.all.count }}</a>）</span></p>
+    </ul>
+  </div>
+  {% endfor %}
+</div>
+
+{% include "pagination.html" %}
+
+{% endblock %}

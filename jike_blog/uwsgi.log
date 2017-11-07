@@ -1,0 +1,413 @@
+*** Starting uWSGI 2.0.15 (32bit) on [Mon Nov  6 14:26:31 2017] ***
+compiled with version: 4.6.3 on 12 October 2017 19:28:45
+os: Linux-3.13.0-117-generic #164~precise1-Ubuntu SMP Mon Apr 10 16:17:54 UTC 2017
+nodename: ubuntu
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/heng/Documents/jike_blog
+detected binary path: /home/heng/virtualenv/jike_blog_python2.7/bin/uwsgi
+chdir() to /home/heng/Documents/jike_blog
+your processes number limit is 15971
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8888 fd 3
+Python version: 2.7.3 (default, Oct 26 2016, 21:19:34)  [GCC 4.6.3]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x81c2378
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 703868 bytes (687 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x81c2378 pid: 19060 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 19060)
+spawned uWSGI worker 1 (pid: 19065, cores: 1)
+spawned uWSGI worker 2 (pid: 19066, cores: 1)
+spawned uWSGI worker 3 (pid: 19067, cores: 1)
+spawned uWSGI worker 4 (pid: 19068, cores: 1)
+spawned uWSGI worker 5 (pid: 19069, cores: 1)
+spawned uWSGI worker 6 (pid: 19070, cores: 1)
+spawned uWSGI worker 7 (pid: 19071, cores: 1)
+spawned uWSGI worker 8 (pid: 19072, cores: 1)
+spawned uWSGI worker 9 (pid: 19073, cores: 1)
+spawned uWSGI worker 10 (pid: 19074, cores: 1)
+*** Starting uWSGI 2.0.15 (32bit) on [Mon Nov  6 14:26:40 2017] ***
+compiled with version: 4.6.3 on 12 October 2017 19:28:45
+os: Linux-3.13.0-117-generic #164~precise1-Ubuntu SMP Mon Apr 10 16:17:54 UTC 2017
+nodename: ubuntu
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/heng/Documents/jike_blog
+detected binary path: /home/heng/virtualenv/jike_blog_python2.7/bin/uwsgi
+chdir() to /home/heng/Documents/jike_blog
+your processes number limit is 15971
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8888).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.15 (32bit) on [Mon Nov  6 14:31:42 2017] ***
+compiled with version: 4.6.3 on 12 October 2017 19:28:45
+os: Linux-3.13.0-117-generic #164~precise1-Ubuntu SMP Mon Apr 10 16:17:54 UTC 2017
+nodename: ubuntu
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/heng/Documents/jike_blog
+detected binary path: /home/heng/virtualenv/jike_blog_python2.7/bin/uwsgi
+chdir() to /home/heng/Documents/jike_blog
+your processes number limit is 15971
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8888).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.15 (32bit) on [Mon Nov  6 14:33:09 2017] ***
+compiled with version: 4.6.3 on 12 October 2017 19:28:45
+os: Linux-3.13.0-117-generic #164~precise1-Ubuntu SMP Mon Apr 10 16:17:54 UTC 2017
+nodename: ubuntu
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/heng/Documents/jike_blog
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/heng/Documents/jike_blog
+your processes number limit is 15971
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8888).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.15 (32bit) on [Mon Nov  6 14:36:20 2017] ***
+compiled with version: 4.6.3 on 12 October 2017 19:28:45
+os: Linux-3.13.0-117-generic #164~precise1-Ubuntu SMP Mon Apr 10 16:17:54 UTC 2017
+nodename: ubuntu
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/heng/Documents/jike_blog
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/heng/Documents/jike_blog
+your processes number limit is 15971
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8888).
+bind(): Address already in use [core/socket.c line 769]
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+*** Starting uWSGI 2.0.15 (32bit) on [Mon Nov  6 14:37:50 2017] ***
+compiled with version: 4.6.3 on 12 October 2017 19:28:45
+os: Linux-3.13.0-117-generic #164~precise1-Ubuntu SMP Mon Apr 10 16:17:54 UTC 2017
+nodename: ubuntu
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/heng/Documents/jike_blog
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/heng/Documents/jike_blog
+your processes number limit is 15971
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8888).
+bind(): Address already in use [core/socket.c line 769]
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+*** Starting uWSGI 2.0.15 (32bit) on [Mon Nov  6 14:39:56 2017] ***
+compiled with version: 4.6.3 on 12 October 2017 19:28:45
+os: Linux-3.13.0-117-generic #164~precise1-Ubuntu SMP Mon Apr 10 16:17:54 UTC 2017
+nodename: ubuntu
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/heng/Documents/jike_blog
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/heng/Documents/jike_blog
+your processes number limit is 15971
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8888).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.15 (32bit) on [Mon Nov  6 14:49:32 2017] ***
+compiled with version: 4.6.3 on 12 October 2017 19:28:45
+os: Linux-3.13.0-117-generic #164~precise1-Ubuntu SMP Mon Apr 10 16:17:54 UTC 2017
+nodename: ubuntu
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/heng/Documents/jike_blog
+writing pidfile to uwsgi.pid
+detected binary path: /home/heng/virtualenv/jike_blog_python2.7/bin/uwsgi
+chdir() to /home/heng/Documents/jike_blog
+your processes number limit is 15971
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (0:8080).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.15 (32bit) on [Mon Nov  6 14:55:46 2017] ***
+compiled with version: 4.6.3 on 12 October 2017 19:28:45
+os: Linux-3.13.0-117-generic #164~precise1-Ubuntu SMP Mon Apr 10 16:17:54 UTC 2017
+nodename: ubuntu
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/heng/Documents/jike_blog
+writing pidfile to uwsgi.pid
+detected binary path: /home/heng/virtualenv/jike_blog_python2.7/bin/uwsgi
+chdir() to /home/heng/Documents/jike_blog
+your processes number limit is 15971
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (0:8080).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.15 (32bit) on [Mon Nov  6 14:59:58 2017] ***
+compiled with version: 4.6.3 on 12 October 2017 19:28:45
+os: Linux-3.13.0-117-generic #164~precise1-Ubuntu SMP Mon Apr 10 16:17:54 UTC 2017
+nodename: ubuntu
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/heng/Documents/jike_blog
+writing pidfile to uwsgi.pid
+detected binary path: /home/heng/virtualenv/jike_blog_python2.7/bin/uwsgi
+chdir() to /home/heng/Documents/jike_blog
+your processes number limit is 15971
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (0:8080).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.15 (32bit) on [Mon Nov  6 15:00:34 2017] ***
+compiled with version: 4.6.3 on 12 October 2017 19:28:45
+os: Linux-3.13.0-117-generic #164~precise1-Ubuntu SMP Mon Apr 10 16:17:54 UTC 2017
+nodename: ubuntu
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/heng/Documents/jike_blog
+writing pidfile to uwsgi.pid
+detected binary path: /home/heng/virtualenv/jike_blog_python2.7/bin/uwsgi
+chdir() to /home/heng/Documents/jike_blog
+your processes number limit is 15971
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (0:8080).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.15 (32bit) on [Mon Nov  6 15:00:39 2017] ***
+compiled with version: 4.6.3 on 12 October 2017 19:28:45
+os: Linux-3.13.0-117-generic #164~precise1-Ubuntu SMP Mon Apr 10 16:17:54 UTC 2017
+nodename: ubuntu
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/heng/Documents/jike_blog
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/heng/Documents/jike_blog
+your processes number limit is 15971
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (0:8080).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.15 (32bit) on [Mon Nov  6 15:01:46 2017] ***
+compiled with version: 4.6.3 on 12 October 2017 19:28:45
+os: Linux-3.13.0-117-generic #164~precise1-Ubuntu SMP Mon Apr 10 16:17:54 UTC 2017
+nodename: ubuntu
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/heng/Documents/jike_blog
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/heng/Documents/jike_blog
+your processes number limit is 15971
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8080).
+bind(): Address already in use [core/socket.c line 769]
+...brutally killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+worker 7 buried after 1 seconds
+worker 8 buried after 1 seconds
+worker 9 buried after 1 seconds
+worker 10 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/heng/Documents/jike_blog
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (127.0.0.1:8888)
+running /home/heng/virtualenv/jike_blog_python2.7/bin/uwsgi
+[uWSGI] getting INI configuration from myblog_uwsgi.ini
+*** Starting uWSGI 2.0.15 (32bit) on [Mon Nov  6 15:02:16 2017] ***
+compiled with version: 4.6.3 on 12 October 2017 19:28:45
+os: Linux-3.13.0-117-generic #164~precise1-Ubuntu SMP Mon Apr 10 16:17:54 UTC 2017
+nodename: ubuntu
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/heng/Documents/jike_blog
+detected binary path: /home/heng/virtualenv/jike_blog_python2.7/bin/uwsgi
+chdir() to /home/heng/Documents/jike_blog
+your processes number limit is 15971
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8080 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:46590 (port auto-assigned) fd 4
+Python version: 2.7.3 (default, Oct 26 2016, 21:19:34)  [GCC 4.6.3]
+Set PythonHome to /home/heng/virtualenv/jike_blog_python2.7
+Python main interpreter initialized at 0x92f82d8
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 707336 bytes (690 KB) for 36 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x92f82d8 pid: 19060 (default app)
+mountpoint  already configured. skip.
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 19060)
+spawned uWSGI worker 1 (pid: 19988, cores: 6)
+spawned uWSGI worker 2 (pid: 19989, cores: 6)
+spawned uWSGI worker 3 (pid: 19990, cores: 6)
+spawned uWSGI worker 4 (pid: 19991, cores: 6)
+spawned uWSGI worker 5 (pid: 19992, cores: 6)
+spawned uWSGI worker 6 (pid: 19993, cores: 6)
+spawned uWSGI http 1 (pid: 19994)
+*** Starting uWSGI 2.0.15 (32bit) on [Mon Nov  6 15:07:47 2017] ***
+compiled with version: 4.6.3 on 12 October 2017 19:28:45
+os: Linux-3.13.0-117-generic #164~precise1-Ubuntu SMP Mon Apr 10 16:17:54 UTC 2017
+nodename: ubuntu
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/heng/Documents/jike_blog
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/heng/Documents/jike_blog
+your processes number limit is 15971
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8080).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.15 (32bit) on [Mon Nov  6 15:13:41 2017] ***
+compiled with version: 4.6.3 on 12 October 2017 19:28:45
+os: Linux-3.13.0-117-generic #164~precise1-Ubuntu SMP Mon Apr 10 16:17:54 UTC 2017
+nodename: ubuntu
+machine: i686
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/heng
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/heng/Documents/jike_blog
+your processes number limit is 15971
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8080).
+bind(): Address already in use [core/socket.c line 769]
